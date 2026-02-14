@@ -28,15 +28,16 @@ It serves as the deterministic but unpredictable reference from which every user
 ## How to Use This Matrix
 
 1. Obtain a physical copy of the **DiceCipher** book for the complete step-by-step dice-rolling derivation protocol.
-2. Roll dice (usually multiple 10-sided dice or combinations of d6) as instructed to select rows/columns/offsets from this Origin Matrix.
+2. Roll dice (usually five six sided dice 12 times) as instructed in the book to select rows/columns/offsets from this Origin Matrix.
 3. Build your personal **Cipher Matrix** — this becomes your private reference for encrypting/decrypting messages.
-4. Use the derived matrix with one-time pad addition/subtraction (mod 10 or similar) on your plaintext → ciphertext.
+4. Use the derived matrix as described in the book to cipher letters of your text into 4 digit codes or 6 digit codes if using the multiplication row method described in the book
 
 **Important security rules** (from the book):
 - Never reuse key material.
 - Use truly random dice rolls (physical dice only — no digital RNG).
 - Destroy used one-time key material after single use.
-- Keep the derivation process and final matrix strictly secret.
+- Keep the derivation process and final cipher matrix strictly secret.
+- Never reuse the same 4 (or 6 digit code) for the same letter
 
 ## Why a Separate Repo?
 
@@ -56,6 +57,6 @@ It serves as the deterministic but unpredictable reference from which every user
 This Origin Matrix is released under the **CC0 1.0 Universal** (Public Domain) license to the extent possible under law.  
 You are free to use, copy, modify, distribute, and build upon it for any purpose — no attribution required, though linking back to DiceCipher or the book is appreciated.
 
-**Note**: While the matrix itself is freely redistributable, the full DiceCipher encryption method, terminology, and procedures remain the intellectual framework of the book's author.
+**Note**: While the matrix itself is freely redistributable, the full DiceCipher encryption method, terminology, and procedures remain the intellectual framework of the book's author Árpád Lehel Mátyus.
 
 Questions or issues? Open an issue here or refer to the official DiceCipher resources.
